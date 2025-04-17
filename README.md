@@ -37,6 +37,26 @@ Press **Allow** to grant access to SOWR - You are all set!
 
 <img width="600" height="350" alt="Screenshot 2025-04-17 at 08 29 26" src="https://github.com/user-attachments/assets/9055a164-2ff6-4670-b22b-d46690bc6860" />
 
+# Input Data
+The script will look for data in the specific columns, please stick to this format: 
+
+**Column A**: Please, paste dates in a common date format, e.g. 01-01-2023 or 2023.01.01 etc starting with your first historical year (e.g. 1991)
+
+**Column B**: Please, paste discharge data time series in the comma-separated format, e.g. 1235,55. Otherwise the calculation won’t be possible!! Note that at this point the script cannot handle non-numeric values in the discharge column, which is common in case of missing data. In case of negative values in the discharge column the script will skip those and will issue a warning, to indicate which cells contain the negative values
+
+**Cell E4**: target year, usually current year -1 (e.g. in 2025 it will be year 2024)  
+**Cell E5**: start year of historical period (usually 1991)  
+**Cell E6**: end year of historical period  (usually 2020)  
+
+There is no need to separate the time series into historic and target year, the tool will do it automatically.
+
+# Calculation
+To run the script go to the Menu, next to Help you will find the SOWR Analysis Menu item. By clicking on Discharge analysis - Calculate Anomaly you will trigger the script. Here you can also find links to this Guide as well as information on Privacy Policy and Terms of Service:
+
+<img width="600" height="250" alt="Screenshot 2025-04-17 at 11 11 16" src="https://github.com/user-attachments/assets/7de6ed9b-89d9-4cac-81d6-f4d46c79c671" />
 
 
+The calculated label as well as any warnings will appear in the column E
+
+<img width="600" height="250" alt="Screenshot 2025-04-17 at 11 14 52" src="https://github.com/user-attachments/assets/6af32844-4c1b-4cc3-afa1-ff09cafad96e" />
 
