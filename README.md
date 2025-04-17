@@ -60,3 +60,16 @@ The calculated label as well as any warnings will appear in the column E
 
 <img width="600" height="250" alt="Screenshot 2025-04-17 at 11 14 52" src="https://github.com/user-attachments/assets/6af32844-4c1b-4cc3-afa1-ff09cafad96e" />
 
+# Tools for Labels calculation
+This folder contains useful tools for normals and labels calcuation for the State of the Global Water Resources Report
+
+**Folder R-Script** contains R-based script, including instructions and examples on how to install and use it.
+
+**Folder GSheet** contains instructions how to install and use the G Sheet add-on for normals calculations
+
+## Feedback
+We are happy to receive your feedback regarding the tooling here:
+
+https://forms.gle/wtPtHVhQ3QpX92wy7 
+
+Please, help us to improve! 🙂
